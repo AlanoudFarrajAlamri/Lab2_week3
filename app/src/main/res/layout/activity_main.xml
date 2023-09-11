@@ -31,15 +31,4 @@
         app:layout_constraintTop_toBottomOf="@+id/send_text_id"
         app:layout_constraintVertical_bias="0.139" />
 
-    <TextView
-        android:id="@+id/received_value_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/send_button_id"
-        app:layout_constraintVertical_bias="0.284" />
 </androidx.constraintlayout.widget.ConstraintLayout>
